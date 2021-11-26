@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="overflow-x:hidden">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="s.css">
 </head>
-<body style="overflow-x:hidden">
+<body>
     <header>
             <p title="message" style="color: white;">
                 <b>Important:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dicta molestias animi fugiat saepe qui labore minus sit sapiente veniam, vero culpa,
@@ -68,7 +68,7 @@
       
     </nav>
     <main>
-        <menu  id="mamamama" role="navigation">
+        <menu  role="navigation">
             <ul>
                 <li>
                     <a title="navigate to My Profile" href="#">My Profile</a>
@@ -78,9 +78,8 @@
                 </li>
                 <li class="hasmnu">
                     <!-- <a title="navigate to COURSE MANAGEMENT MENU" href="#">COURSE MANAGEMENT MENU</a> -->
-                    <button>
-                        COURSE MANAGEMENT MENU
-                    </button>
+                    <input type="checkbox" name="tog" id="tog" hidden>
+                    <label tabindex="0" title="Nav to COURSE MANAGEMENT MENU" for="tog">COURSE MANAGEMENT MENU</label>
                     <ul title="navigate to sub menu" class="dropdown" >
                         <li><a title="navigate to sub 1" href="#">Sub-1</a></li>
                         <li><a title="navigate to sub 2"href="#">Sub-2</a></li>
@@ -90,7 +89,7 @@
                       </ul>
                 </li>
                 <li>
-                    <a title="navigate to SEARCH TOOL MENU" href="#">SEARCH TOOL MENU</a>
+                    <a class="ttmmpp" title="navigate to SEARCH TOOL MENU" href="#">SEARCH TOOL MENU</a>
                 </li>
             </ul>
         </menu>
