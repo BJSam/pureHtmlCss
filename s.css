@@ -1,0 +1,352 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+footer{
+    background-color: black;
+    margin-top:auto; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3em;
+}
+main{
+    background-color: white;
+    min-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    min-width: 80%;
+    margin: auto;
+    /* border-bottom: solid 1px black; */
+    
+margin-top: 2em;
+}
+nav .logo img{
+    height: 4em;
+}
+nav .logo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.profCont{
+background-color: white;
+flex: 2;
+display: flex;
+justify-content: space-between;
+}
+.pc1 ul, li, .accop  {
+    list-style-type: none;
+
+}
+.accop ul li{
+    font-size: 16px !important;
+}
+.pc1 ul li, .accop ul li{
+    display: inline;
+    padding: 0 10px;
+    border-left: solid 1px black;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pc1 ul li:first-child, .accop ul li:first-child {
+    border-left: none;
+  }
+  .accop ul{
+      padding:0px;
+  }
+.accop ul li:first-child{
+padding: 0px 10px 0px 0px;
+  }
+  .profileContent ul li:last-child{
+      margin-top: 15px;
+  }
+ .prifilePic img{
+     width: 5em;
+     height: 5em;
+ }
+ .pc2{
+     display: flex;
+     justify-content: center;
+ }
+ .profileContent ul{
+     padding: 0;
+ }
+ .prifilePic{
+     margin-right: 15px;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+ }
+ a:hover { text-decoration: none; color: inherit;}
+a:focus { text-decoration: none;  color: inherit;}
+a:active { text-decoration: none;  color: inherit;}
+ .nav{
+     display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ main menu ul li{
+     margin-left: 5px;
+    /* border-left: solid 1px black; */
+    font-size: 16px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-width: initial;
+ }
+ main menu ul li::before{
+content: '|';
+ }
+ main menu ul{
+     display: flex;
+     padding-left: 0px;
+ }
+ main menu ul li:first-child{
+    border-left:0px;
+    padding-left: 0px;
+ }
+ main menu ul li:first-child::before{
+content: '';
+ }
+ main menu{
+     padding-left: 0px;
+     height: 50px;
+     align-self: flex-start; 
+    z-index: 5;
+    border-bottom: solid 1px black;
+    width: 100%;
+     display: flex;
+    /* flex: 1; */
+    /* overflow-y: hidden;
+    overflow-x: auto; */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none; 
+ }
+ main .route{
+     margin: 0;
+     padding: 0;
+     margin-top: 1em;
+     align-self: flex-start;
+ }
+ main .route li{
+    display: inline;
+    padding: 2px;
+ }
+ main .route li::before{
+    content: '>';
+ }
+ main .route  li:first-child::before{
+     content: '';
+ }
+ main .route li a{
+color: rgb(160, 0, 0);;
+ }
+ .note{
+     background-color: rgba(248, 139, 139, 0.829);
+     width: 90%;
+     margin: 10px;
+ }
+ .container{
+     background-color: gray;
+     width:100%;
+     height: 60vh;
+     margin-bottom: 5em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .container h1{
+     font-size: 35px;
+     font-weight: bold;
+ }
+ footer ul li a{
+     color: white;
+
+ }
+ footer ul li{
+    display: inline;
+    padding: 0 10px;
+    border-left: solid 1px white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ }
+ footer ul li:first-child{
+    border-left: none
+ }
+ footer .icons li{
+     background-color: white;
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     margin: 10px;
+     cursor: pointer;
+ }
+ footer .icons {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ footer .icons li img{
+     width: 20px;
+     height: 20px;
+     align-self: center;
+}
+footer .icons li button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .icons li button:focus {
+    outline: 3px dotted white;   
+}
+footer .pp li{
+font-weight: normal;
+}
+menu .dropdown li{
+    border: none;
+    padding: 0;
+
+}
+menu .dropdown li::before{
+content: '';
+}
+menu .dropdown{
+    display: none;
+    width: 20em;
+    margin-left: 0.8em;
+    flex-direction: column;
+    margin-top: 0.5em;
+    background-color: white;
+    border-top: solid 5px rgb(160, 0, 0);
+}
+
+/* main menu{
+    align-self: flex-start; 
+    z-index: 5;
+    border-bottom: solid 1px black;
+    width: 100%;
+} */
+.hasmnu{
+    width: 16em;
+}
+.hasmnu button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+.hasmnu:hover > ul,
+.hasmnu:focus > ul,
+.hasmnu:focus-within > ul,
+.hasmnu ul:hover,
+.hasmnu ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+.hasmnu:hover > a{
+color: rgb(160, 0, 0);
+}
+.hasmnu ul li:hover a{
+    color: rgb(160, 0, 0);
+}
+.hasmnu ul li:hover, .hasmnu ul:active{
+    background-color: gray;
+}
+.hasmnu ul li{
+    padding: 5px !important;
+    margin: 0 !important;
+}
+@media only screen and (max-width: 1290px) {
+    .accop ul li {
+        display: flex;
+        flex-direction: column;
+        border: 0;
+        padding: 0 !important;
+        margin:0;
+    }
+   .accop ul li:last-child{
+    margin-top: 0;
+    }
+    a{
+        text-align: left;
+    }
+  }
+  @media only screen and (max-width: 990px) {
+   .pc1 ul li{
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+   }
+   .pc1 ul li{
+       text-align: center;
+       align-items: flex-start;
+       justify-content: center;
+   }
+  }
+  @media only screen and (max-width: 990px) {
+    .pc2{
+        flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 661px) {
+    main menu{
+        overflow: auto;
+        flex: 1;
+    }
+    main menu ul li{
+        min-width: fit-content;
+    }
+  }
+
+  @media only screen and (max-width: 462px) {
+    .profCont{
+        flex-direction: column;
+    }
+  }
+
+  
